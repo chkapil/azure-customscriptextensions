@@ -1,0 +1,3 @@
+#Following command runs on a target node
+get-dsclocalconfigurationmanager
+
