@@ -1,0 +1,4 @@
+Login-AzureRmAccount
+
+get-azurermvmsize -Location "UK South" | Sort-Object Name | ft Name, NumberOfCores, MemoryInMB, MaxDataDiskCount -AutoSize
+
