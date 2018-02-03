@@ -1,0 +1,7 @@
+az login
+
+cd 'C:\Users\kapil.chadha\OneDrive - Avanade\3. Training\1. Azure\70-532\Book\Ch1'
+
+#Make sure that storage container has minimum blob level access allowed
+
+az vm extension set --resource-group CHAP1 --vm-name SRV1 --name CustomScriptExtension --publisher Microsoft.Compute --settings CLI.json --version 1.9

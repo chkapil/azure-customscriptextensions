@@ -1,0 +1,4 @@
+{
+  "fileUris": ["https://sandboxkc.blob.core.windows.net/scripts/CS-Ext-CLI.ps1"],
+  "commandToExecute": "powershell.exe ./CS-Ext-CLI.ps1"
+}
